@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import Letter from './pages/Home/Letter/Letter';
+import './app.css';
 
 const StyledApp = styled.div`
   // Your style here
@@ -7,7 +9,7 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      
+      <Letter />
     </StyledApp>
   );
 }

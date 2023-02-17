@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #000;
+  --link-color: cornflowerblue;
+}
+
+body {
+  margin: 0;
+  color: var(--primary-color);
+  max-width: 960px;
+  transform: translate(25%, 0);
+}
