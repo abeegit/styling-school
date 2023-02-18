@@ -1,3 +1,4 @@
+import Link from 'src/app/components/Link/Link';
 import styled from 'styled-components';
 
 /* eslint-disable-next-line */
@@ -7,10 +8,19 @@ const StyledHome = styled.div`
   color: pink;
 `;
 
+const StyledUnorderedList = styled.ul`
+  list-style-type: decimal;
+`;
+
 export function Home(props: HomeProps) {
   return (
     <StyledHome>
-      <h1>Welcome to Home!</h1>
+      <h1>Styling Classroom</h1>
+
+      <StyledUnorderedList>
+        <li><Link href='/letter'>Letter</Link></li>
+        <li><Link href="/getting-started-with-css">Getting started with CSS</Link></li>
+      </StyledUnorderedList>
     </StyledHome>
   );
 }

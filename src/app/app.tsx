@@ -1,5 +1,8 @@
 import styled from 'styled-components';
-import Letter from './pages/Home/Letter/Letter';
+import { RouterProvider } from 'react-router-dom';
+
+import router from './config/router';
+
 import './app.css';
 
 const StyledApp = styled.div`
@@ -9,7 +12,7 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <Letter />
+      <RouterProvider router={router} />
     </StyledApp>
   );
 }
