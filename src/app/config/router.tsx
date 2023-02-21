@@ -1,4 +1,4 @@
-import { Home, Letter, GettingStartedWithCSS } from 'src/app/pages';
+import { Home, Letter, GettingStartedWithCSS, Biography } from 'src/app/pages';
 import { RouteObject, createBrowserRouter } from 'react-router-dom';
 
 const routes: RouteObject[] = [
@@ -13,6 +13,10 @@ const routes: RouteObject[] = [
   {
     path: 'getting-started-with-css',
     element: <GettingStartedWithCSS />
+  },
+  {
+    path: '/biography',
+    element: <Biography />
   }
 ]
 
