@@ -4,8 +4,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 1em;
   color: var(--primary-color);
-  max-width: 960px;
-  transform: translate(25%, 0);
+  /* max-width: 960px; */
 }

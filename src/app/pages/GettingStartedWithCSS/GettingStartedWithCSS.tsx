@@ -1,12 +1,5 @@
-import styled from 'styled-components';
+import { StyledH1, StyledParagraph } from "./GettingStartedWithCSS.styled";
 
-const StyledH1 = styled.h1`
-  color: red;
-`;
-
-const StyledParagraph = styled.p`
-  color: green;
-`;
 
 export function GettingStartedWithCSS() {
   return (
