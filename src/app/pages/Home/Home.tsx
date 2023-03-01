@@ -21,6 +21,7 @@ export function Home(props: HomeProps) {
         <li><Link href='/letter'>Letter</Link></li>
         <li><Link href="/getting-started-with-css">Getting started with CSS</Link></li>
         <li><Link href='/biography'>Biography</Link></li>
+        <li><Link href='/flexbox'>Flex Box</Link></li>
       </StyledUnorderedList>
     </StyledHome>
   );

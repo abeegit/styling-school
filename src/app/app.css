@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #000;
+  --primary-color: #38514e;
+  --secondary-color: #03ceb6;
   --link-color: cornflowerblue;
 }
 
 body {
   margin: 0 1em;
   color: var(--primary-color);
-  /* max-width: 960px; */
 }
