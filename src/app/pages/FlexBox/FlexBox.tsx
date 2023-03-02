@@ -1,4 +1,3 @@
-import { NavBar } from 'src/app/components';
 import styled from 'styled-components';
 
 /* eslint-disable-next-line */
@@ -11,7 +10,6 @@ const StyledFlexBox = styled.div`
 export function FlexBox(props: FlexBoxProps) {
   return (
     <StyledFlexBox>
-      <NavBar />
     </StyledFlexBox>
   );
 }

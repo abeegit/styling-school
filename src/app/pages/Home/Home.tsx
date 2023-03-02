@@ -1,3 +1,4 @@
+import { NavBar } from 'src/app/components';
 import Link from 'src/app/components/Link/Link';
 import styled from 'styled-components';
 

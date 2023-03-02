@@ -9,6 +9,14 @@ export const StyledNavBar = styled.div`
   margin: auto;
 `;
 
-export const Logo = styled.img`
-  width: 200px;
-`;
+export const StyledA = styled.a({
+  width: '200px',
+  height: '100px',
+  'img': {
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+    overflow: 'hidden'
+  }
+})
+  

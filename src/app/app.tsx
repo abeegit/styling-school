@@ -4,6 +4,7 @@ import { RouterProvider } from 'react-router-dom';
 import router from './config/router';
 
 import './app.css';
+import { NavBar } from './components';
 
 const StyledApp = styled.div`
   // Your style here
@@ -12,6 +13,7 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
+      <NavBar />
       <RouterProvider router={router} />
     </StyledApp>
   );
